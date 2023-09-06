@@ -11,7 +11,7 @@ export default function Provider({ children }: { children: React.ReactNode }) {
 
   return (
     <div>
-      <div>provider rendered: {rendered}</div>
+      <div>root layout rendered: {rendered}</div>
       {children}
     </div>
   );
