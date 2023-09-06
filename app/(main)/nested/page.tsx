@@ -7,14 +7,15 @@ const wait = async () => {
   });
 };
 
-export default async function Home() {
+export default async function NestedPage() {
   const cookieStore = cookies();
   await wait();
+
   return (
     <div>
-      <div>home page</div>
+      <div>nested page</div>
       <div>
-        <Link href="/nested">nested page</Link>
+        <Link href="/">home</Link>
       </div>
     </div>
   );
